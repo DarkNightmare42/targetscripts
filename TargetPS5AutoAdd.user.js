@@ -8,7 +8,7 @@
 // @grant        none
 // ==/UserScript==
 
-//var triedToAdd = false;
+//the url above can be modified to suit just about any preorder item on targets website
 var ps5InCart = false;
 
 setInterval(function(){ //add to cart function
