@@ -49,7 +49,13 @@ setInterval(function(){ //refresh function
 }, 180000); //refreshes every 3 minutes
 
 //if you're using brewcrew87's snag script, add the following lines to the if statements just before it attempts to checkout
-//        document.getElementById("espCheckbox").checked = false;
-//insert above         ps5inCart[0].click(); // Attempt to checkout
-//and         ps5readyToOrder[0].click(); // Attempt to place order
-
+//modify it look like the code below:
+/*
+    if(ps5inCart.length){
+        document.getElementById("espCheckbox").checked = false; <-- line added
+        ps5inCart[0].click(); // Attempt to checkout
+    } else if (ps5readyToOrder.length && !triedToBuy) {
+        triedToBuy = true;
+        document.getElementById("espCheckbox").checked = false; <-- line added
+        ps5readyToOrder[0].click(); // Attempt to place order 
+*/
