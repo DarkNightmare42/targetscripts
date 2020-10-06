@@ -33,5 +33,5 @@ setInterval(function(){
         ps5inCart = 1;
         window.location = "https://www.target.com/co-cart";
     }
-}, 180000);
+}, 250);
 
