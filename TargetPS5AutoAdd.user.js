@@ -16,7 +16,7 @@ setInterval(function(){
     document.getElementById("warranty-service").checked = true;
     var ps5AddToCart = document.querySelectorAll("[data-test='preorderButton']");
     //var ps5readyToOrder = document.querySelectorAll("[data-test='placeOrderButton']");
-    if(ps5inCart = 1){
+    if(ps5inCart == 1){
         throw new Error("Already Added!");
 ;
     }
@@ -39,5 +39,3 @@ setInterval(function(){
 
     location.reload();
 }, 180000);
-
-
