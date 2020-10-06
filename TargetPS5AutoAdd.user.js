@@ -35,3 +35,9 @@ setInterval(function(){
     }
 }, 250);
 
+setInterval(function(){
+
+    location.reload();
+}, 180000);
+
+
