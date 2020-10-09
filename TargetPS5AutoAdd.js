@@ -52,10 +52,10 @@ setInterval(function(){ //refresh function
 //modify it look like the code below:
 /*
     if(ps5inCart.length){
-        document.getElementById("espCheckbox").checked = false; <-- line added
+        document.getElementById("espCheckbox").checked = true; <-- line added
         ps5inCart[0].click(); // Attempt to checkout
     } else if (ps5readyToOrder.length && !triedToBuy) {
         triedToBuy = true;
-        document.getElementById("espCheckbox").checked = false; <-- line added
+        document.getElementById("espCheckbox").checked = true; <-- line added
         ps5readyToOrder[0].click(); // Attempt to place order 
 */
