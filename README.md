@@ -1,6 +1,6 @@
 # targetscripts
 
-This script was built with the purpose and intention to assist in grabbing an item at target.
+This script was built with the purpose and intention to assist in grabbing a preorder item at target.
 It can be modified to suit any pre-order item by simply changing the designated url.
 You can also disable the add insurance option by adding // at the beginning of said line. 
 It is a userscript built to work with the tampermonkey extension on google chrome, and 
