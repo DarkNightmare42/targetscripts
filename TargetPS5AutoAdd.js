@@ -2,7 +2,7 @@
 // @name         TargetPS5AutoAdd
 // @namespace    http://example.tld
 // @version      0.1
-// @description  TargetPS5AutoSnag
+// @description  TargetPS5AutoAdd
 // @author       DarkNightmare42
 // @match        https://www.target.com/p/playstation-5-*
 // @grant        none
