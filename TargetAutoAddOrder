@@ -4,7 +4,7 @@
 // @version      0.1
 // @description  TargetPS5AutoAdd
 // @author       DarkNightmare42
-// @match        https://www.target.com/p/dualsense-wireless-* //change this url to suit the item, look a the bottom for an explanation
+// @match        https://www.target.com/p/playstation-5-* //change this url to suit the item, look a the bottom for an explanation
 // @grant        none
 // ==/UserScript==
 
