@@ -1,9 +1,11 @@
 // ==UserScript==
 // @name         TargetPS5AutoAdd
-// @namespace    http://example.tld
-// @version      0.1
 // @description  TargetPS5AutoAdd
 // @author       DarkNightmare42
+// @version      0.2
+// @updateUrl    https://github.com/DarkNightmare42/targetscripts/raw/main/TargetAutoAddPreorder.user.js
+// @downloadUrl  https://github.com/DarkNightmare42/targetscripts/raw/main/TargetAutoAddPreorder.user.js
+// @namespace    http://example.tld
 // @match        https://www.target.com/p/playstation-5-*
 // @grant        none
 // ==/UserScript==
