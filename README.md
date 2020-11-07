@@ -22,5 +22,5 @@ If you want to modify the script to watch a different url, make sure to remove t
 the original script.
 
 # Disclaimer
-Use at your own, which includes, but is not limited to any possible bans, cart lockouts,
+Use at your own risk, which includes, but is not limited to any possible bans, cart lockouts,
 cancelled orders, etc.
