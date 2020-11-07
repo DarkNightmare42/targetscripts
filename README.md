@@ -12,7 +12,7 @@ If everything works, you should see TamperMonkey ask you to confirm the installa
 Then browse to the designated url, refresh once and it should be on its way to
 preordering glory.
 
-It purpose is merely to add the item to cart and then proceed to said cart. Follow the instructions
+It's purpose is merely to add the item to cart and then proceed to said cart. Follow the instructions
 at the end of the script to modify brewcrew87's script to automate the entire ordering process,
 also removing the added insurace, this of course isn't required if disabled.
 
