@@ -10,7 +10,7 @@ if the item was added to cart or not, this will require your physical presence t
 It is a userscript built to work with the tampermonkey extension on google chrome, and 
 Should be compatible with greasemonkey as well.
 
-#Requirements
+## Requirements
 
 -Chrome based browser or Mozilla's firefox
 -Tampermonkey or Greasemonkey extension
@@ -38,5 +38,5 @@ the original script.
 Use at your own risk, which includes, but is not limited to any possible bans, cart lockouts,
 cancelled orders, etc.
 
-#Credits
+## Credits
 Goes to developer @dill0wn for updating auto updates and fixed readme, unable to add a contributor.
