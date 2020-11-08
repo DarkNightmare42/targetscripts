@@ -37,3 +37,6 @@ the original script.
 # Disclaimer
 Use at your own risk, which includes, but is not limited to any possible bans, cart lockouts,
 cancelled orders, etc.
+
+#Credits
+Goes to developer @dill0wn for updating auto updates and fixed readme, unable to add a contributor.
