@@ -49,7 +49,7 @@ setInterval(function(){ //go to cart function
 setInterval(function(){ //refresh function
 
     location.reload();
-}, 180000); //refreshes every 3 minutes
+}, 60000); //refreshes every 3 minutes
 
 /* script is a very minor modification of the existing auto add preorder script, which I will leave as is for future releases
 and also to simplify explaining it's use. 
