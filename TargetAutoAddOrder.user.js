@@ -2,11 +2,13 @@
 // @name         TargetPS5AutoAdd
 // @description  TargetPS5AutoAdd
 // @author       DarkNightmare42, dill0wn
-// @version      0.2.4
+// @version      0.2.5
 // @updateUrl    https://github.com/DarkNightmare42/targetscripts/raw/main/TargetAutoAddOrder.user.js
 // @downloadUrl  https://github.com/DarkNightmare42/targetscripts/raw/main/TargetAutoAddOrder.user.js
 // @namespace    http://example.tld
 // @match        https://www.target.com/p/playstation-5-* 
+// @match        https://www.target.com/p/xbox-series-x-*
+// @match        https://www.target.com/p/xbox-series-s-*
 // @grant        none
 // ==/UserScript==
 
