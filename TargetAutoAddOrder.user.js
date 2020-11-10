@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name         TargetPS5AutoAdd
 // @description  TargetPS5AutoAdd
-// @author       DarkNightmare42
-// @version      0.2.3
+// @author       DarkNightmare42, dill0wn
+// @version      0.2.4
 // @updateUrl    https://github.com/DarkNightmare42/targetscripts/raw/main/TargetAutoAddOrder.user.js
 // @downloadUrl  https://github.com/DarkNightmare42/targetscripts/raw/main/TargetAutoAddOrder.user.js
 // @namespace    http://example.tld
@@ -62,7 +62,7 @@ setInterval(function(){ //refresh function
     console.log("reload, hasFocus", document.hasFocus());
 
     location.reload();
-}, 18000); //refreshes every 3 minutes
+}, 60000); //refreshes every minutes
 
 /* script is a very minor modification of the existing auto add preorder script, which I will leave as is for future releases
 and also to simplify explaining it's use. 
