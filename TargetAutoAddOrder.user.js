@@ -62,7 +62,7 @@ setInterval(function(){ //refresh function
     console.log("reload, hasFocus", document.hasFocus());
 
     location.reload();
-}, 5000); //refreshes every 3 minutes
+}, 18000); //refreshes every 3 minutes
 
 /* script is a very minor modification of the existing auto add preorder script, which I will leave as is for future releases
 and also to simplify explaining it's use. 
