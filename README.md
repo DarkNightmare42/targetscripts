@@ -12,8 +12,10 @@ Should be compatible with greasemonkey as well.
 
 ## Requirements
 
--Chrome based browser or Mozilla's firefox /n
--Tampermonkey or Greasemonkey extension /n
+-Chrome based browser or Mozilla's firefox 
+
+-Tampermonkey or Greasemonkey extension 
+
 -Copy of the script
 
 ## Installation
