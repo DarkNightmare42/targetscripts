@@ -4,8 +4,8 @@
 // @version      1.0.0
 // @description  TargetPS5AutoSnag
 // @author       brewcrew87
-// @updateUrl    https://github.com/DarkNightmare42/PS5Target/raw/main/TargetCheckout.user.js
-// @downloadUrl  https://github.com/DarkNightmare42/PS5Target/raw/main/TargetCheckout.user.js
+// @updateUrl    https://github.com/DarkNightmare42/targetscripts/raw/main/TargetCheckout.user.js
+// @downloadUrl  https://github.com/DarkNightmare42/targetscripts/raw/main/TargetCheckout.user.js
 // @match        https://www.target.com/co*
 // @grant        none
 // ==/UserScript==
