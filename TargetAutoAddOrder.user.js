@@ -2,7 +2,7 @@
 // @name         TargetPS5AutoAdd
 // @description  TargetPS5AutoAdd
 // @author       DarkNightmare42, dill0wn
-// @version      0.2.5
+// @version      0.2.6
 // @updateUrl    https://github.com/DarkNightmare42/targetscripts/raw/main/TargetAutoAddOrder.user.js
 // @downloadUrl  https://github.com/DarkNightmare42/targetscripts/raw/main/TargetAutoAddOrder.user.js
 // @namespace    http://example.tld
@@ -12,7 +12,6 @@
 // @grant        none
 // ==/UserScript==
 
-//the url above can be modified to suit just about any preorder item on targets website
 var ps5InCart = false;
 
 console.log("onload, hasFocus", document.hasFocus());
@@ -66,13 +65,4 @@ setInterval(function(){ //refresh function
     location.reload();
 }, 60000); //refreshes every minutes
 
-/* script is a very minor modification of the existing auto add preorder script, which I will leave as is for future releases
-and also to simplify explaining it's use. 
-to use the shipIt button, disable the pickup up button by adding // in front of the line commented as shipIt button and comment out the pickup button
-with //, instructions go vice versa. 
-
-Change the url to match the item you want to order, try to keep it as a wildcard to ensure compatibility for example:
-if the url is: https://www.target.com/p/playstation-5-console/-/A-81114595#lnk=sametab
-modify it and paste a shortened wildcard version such as: https://www.target.com/p/playstation-5-*
-
-*/
+//use with checkout script to automate the entire process
