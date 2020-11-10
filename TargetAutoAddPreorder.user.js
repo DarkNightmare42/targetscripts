@@ -2,7 +2,7 @@
 // @name         TargetPS5AutoAdd
 // @description  TargetPS5AutoAdd
 // @author       DarkNightmare42
-// @version      0.2
+// @version      0.2.1
 // @updateUrl    https://github.com/DarkNightmare42/targetscripts/raw/main/TargetAutoAddPreorder.user.js
 // @downloadUrl  https://github.com/DarkNightmare42/targetscripts/raw/main/TargetAutoAddPreorder.user.js
 // @namespace    http://example.tld
@@ -48,16 +48,4 @@ setInterval(function(){ //go to cart function
 setInterval(function(){ //refresh function
 
     location.reload();
-}, 180000); //refreshes every 3 minutes
-
-//if you're using brewcrew87's snag script, add the following lines to the if statements just before it attempts to checkout
-//modify it look like the code below:
-/*
-    if(ps5inCart.length){
-        document.getElementById("espCheckbox").checked = true; <-- line added
-        ps5inCart[0].click(); // Attempt to checkout
-    } else if (ps5readyToOrder.length && !triedToBuy) {
-        triedToBuy = true;
-        document.getElementById("espCheckbox").checked = true; <-- line added
-        ps5readyToOrder[0].click(); // Attempt to place order 
-*/
+}, 60000); //refreshes every 3 minutes
