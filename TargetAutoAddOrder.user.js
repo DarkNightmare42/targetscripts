@@ -13,6 +13,8 @@
 //the url above can be modified to suit just about any preorder item on targets website
 var ps5InCart = false;
 
+console.log("onload, hasFocus", document.hasFocus());
+
 setInterval(function(){ //add to cart function
 
     document.getElementById("warranty-service").checked = true;
@@ -25,7 +27,17 @@ setInterval(function(){ //add to cart function
         ps5AddToCart[0].click(); // Attempt to add to cart
         ps5InCart = true //if click succeeds, changes status to true
 
+        console.log("addtocart, hasFocus", document.hasFocus());
 
+        GM_notification({
+            title:'Target - PS5 Added to Cart',
+            text: `A PS5 is in your cart. Focused ${document.hasFocus()}`,
+            silent:false,
+            onclick: function() {
+                window.focus();
+            },
+            timeout: 0
+        });
     }
 
     if(closeError !== -1){ //if there was an error adding to cart, closes error dialog
@@ -47,9 +59,10 @@ setInterval(function(){ //go to cart function
 
 
 setInterval(function(){ //refresh function
+    console.log("reload, hasFocus", document.hasFocus());
 
     location.reload();
-}, 180000); //refreshes every 3 minutes
+}, 18000); //refreshes every 3 minutes
 
 /* script is a very minor modification of the existing auto add preorder script, which I will leave as is for future releases
 and also to simplify explaining it's use. 
