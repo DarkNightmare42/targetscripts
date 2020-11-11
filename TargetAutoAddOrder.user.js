@@ -2,7 +2,7 @@
 // @name         TargetPS5AutoAdd
 // @description  TargetPS5AutoAdd
 // @author       DarkNightmare42, dill0wn
-// @version      0.2.6
+// @version      0.2.7
 // @updateUrl    https://github.com/DarkNightmare42/targetscripts/raw/main/TargetAutoAddOrder.user.js
 // @downloadUrl  https://github.com/DarkNightmare42/targetscripts/raw/main/TargetAutoAddOrder.user.js
 // @namespace    http://example.tld
@@ -19,8 +19,8 @@ console.log("onload, hasFocus", document.hasFocus());
 setInterval(function(){ //add to cart function
 
     document.getElementById("warranty-service").checked = true;
-    var ps5AddToCart = document.querySelectorAll('[data-test="shipItButton"]'); //shipIt button 
-    //var ps5AddToCart = document.querySelectorAll('[data-test="orderPickupButton"]'); //ordePickupButton
+    //var ps5AddToCart = document.querySelectorAll('[data-test="shipItButton"]'); //shipIt button 
+    var ps5AddToCart = document.querySelectorAll('[data-test="orderPickupButton"]'); //ordePickupButton
     var closeError = document.querySelectorAll('[data-test="errorContent-okButton"]');
     var close = document.querySelectorAll("body > div:nth-child(31) > div > div > button > span > div");
 
