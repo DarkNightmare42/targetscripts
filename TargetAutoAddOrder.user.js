@@ -62,6 +62,6 @@ setInterval(function(){ //refresh function
     console.log("reload, hasFocus", document.hasFocus());
 
     location.reload();
-}, 30000); //refreshes every minutes
+}, 30000); //refreshes every 30 seconds
 
 //use with checkout script to automate the entire process
