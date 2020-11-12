@@ -35,4 +35,4 @@ setInterval(function(){
     if(hasText || needRefresh || need2){
         window.location = "https://www.target.com/co-cart";
     }
-}, 60000); //refreshes every minute
+}, 30000); //refreshes every 30 seconds
