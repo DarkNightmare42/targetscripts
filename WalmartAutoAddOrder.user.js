@@ -2,7 +2,7 @@
 // @name         Walmart XSX & PS5 Add To Cart
 // @author       dill0wn, darknightmare42
 // @description  Adds items to your walmart cart and notifies you.
-// @version      1.0.3
+// @version      1.0.4
 // @namespace    http://example.tld
 // @match        https://www.walmart.com/ip/Xbox-Series-*
 // @match        https://www.walmart.com/ip/XB1-Xbox-Series-*
@@ -22,7 +22,7 @@
 */
 
 
-const reloadIntervalSeconds = 6;
+const reloadIntervalSeconds = 60;
 const reloadRandomSeconds = 20;
 
 var inCart = false;
@@ -99,7 +99,7 @@ function resetRefresh() {
         if(!addToCart){
             location.reload();
         }
-    }, reloadIntervalSeconds * 1000 - reloadRandomSeconds * 1000 * Math.random()); // refreshes every minute
+    }, reloadIntervalSeconds * 500 - reloadRandomSeconds * 500 * Math.random()); // refreshes every 30 seconds
 }
 resetRefresh();
 
