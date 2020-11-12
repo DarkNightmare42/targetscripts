@@ -6,9 +6,9 @@
 // @namespace    http://example.tld
 // @match        https://www.walmart.com/ip/Xbox-Series-*
 // @match        https://www.walmart.com/ip/XB1-Xbox-Series-*
-// @match        https://www.walmart.com/cp/playstation-5*
+// @match        https://www.walmart.com/cp/playstation-5-*
 // @match        https://www.walmart.com/ip/PlayStation5-*
-// @match        https://www.walmart.com/ip/PlayStation-5*
+// @match        https://www.walmart.com/ip/PlayStation-5-*
 // @grant        GM_notification
 // ==/UserScript==
 
