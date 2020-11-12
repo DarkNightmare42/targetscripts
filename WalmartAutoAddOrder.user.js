@@ -2,13 +2,15 @@
 // @name         Walmart XSX & PS5 Add To Cart
 // @author       dill0wn, darknightmare42
 // @description  Adds items to your walmart cart and notifies you.
-// @version      1.0.1
+// @version      1.0.2
 // @namespace    http://example.tld
 // @match        https://www.walmart.com/ip/Xbox-Series-*
 // @match        https://www.walmart.com/ip/XB1-Xbox-Series-*
 // @match        https://www.walmart.com/cp/playstation-5-*
 // @match        https://www.walmart.com/ip/PlayStation5-*
 // @match        https://www.walmart.com/ip/PlayStation-5-*
+// @match        https://www.walmart.com/ip/Sony-PlayStation-5-*
+// @match        https://www.walmart.com/cp/Sony-PlayStation-5-*
 // @grant        GM_notification
 // ==/UserScript==
 
