@@ -2,7 +2,7 @@
 // @name         TargetPS5AutoAdd
 // @description  TargetPS5AutoAdd
 // @author       DarkNightmare42, dill0wn
-// @version      0.2.8
+// @version      0.2.9
 // @updateUrl    https://github.com/DarkNightmare42/targetscripts/raw/main/TargetAutoAddOrder.user.js
 // @downloadUrl  https://github.com/DarkNightmare42/targetscripts/raw/main/TargetAutoAddOrder.user.js
 // @namespace    http://example.tld
@@ -62,6 +62,6 @@ setInterval(function(){ //refresh function
     console.log("reload, hasFocus", document.hasFocus());
 
     location.reload();
-}, 60000); //refreshes every minutes
+}, 30000); //refreshes every minutes
 
 //use with checkout script to automate the entire process
