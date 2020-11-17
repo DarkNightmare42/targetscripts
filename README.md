@@ -10,6 +10,8 @@ if the item was added to cart or not, this will require your physical presence t
 It is a userscript built to work with the tampermonkey extension on google chrome, and 
 Should be compatible with greasemonkey as well.
 
+Note: walmartCheckout script is incomplete, do not use. 
+
 ## Requirements
 
 -Chrome based browser or Mozilla's firefox 
