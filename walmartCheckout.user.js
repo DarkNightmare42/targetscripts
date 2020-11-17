@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         walmartCheckout
 // @namespace    http://example.tld
-// @version      1.0.0
+// @version      0.0.1
 // @description  walmartCheckout
 // @author       DarkNightmare42, dill0wn
 // @updateUrl    https://github.com/DarkNightmare42/targetscripts/raw/main/walmartCheckout.user.js
