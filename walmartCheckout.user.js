@@ -1,13 +1,13 @@
 // ==UserScript==
 // @name         walmartCheckout
 // @namespace    http://example.tld
-// @version      0.0.1
+// @version      1.0.0
 // @description  walmartCheckout
 // @author       DarkNightmare42, dill0wn
 // @updateUrl    https://github.com/DarkNightmare42/targetscripts/raw/main/walmartCheckout.user.js
 // @downloadUrl  https://github.com/DarkNightmare42/targetscripts/raw/main/walamartCheckout.user.js
 // @match        https://www.walmart.com/cart
-// @match        'https://www.walmart.com/checkout/#/fulfillment-expanded'
+// @match        https://www.walmart.com/checkout/*
 // @grant        none
 // ==/UserScript==
 
@@ -27,14 +27,21 @@ setInterval(function(){
 
 setInterval(function(){
     var placeOrder = document.querySelectorAll('[data-tl-id="button"]');
+    var cvv = document.querySelectorAll('[inputid="cvv-verify-1"]');
     if(placeOrder){
         placeOrder[0].click();
     }
+    placeOrder[0].click();
+    placeOrder[0].click();
+    if(cvv){
+        ("field-input field-input--secondary").val ("insert_cvv_here");
+    }
+    placeOrder[0].click();
+    placeOrder[0].click();
 }, 250); //refreshes every minute
 
 setInterval(function(){
     //script refresh
 }, 60000);
 
-
-//this is not a fully functional script
+//script is in the testing stages, use at your own risk 
