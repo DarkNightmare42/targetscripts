@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         walmartCheckout
 // @namespace    http://example.tld
-// @version      1.0.2
+// @version      1.0.3
 // @description  walmartCheckout
 // @author       DarkNightmare42, dill0wn
 // @updateUrl    https://github.com/DarkNightmare42/targetscripts/raw/main/walmartCheckout.user.js
@@ -41,7 +41,7 @@ setInterval(function(){
             if(addAddress){
                 con[0].click();
                 if(cvv){
-                    document.getElementByName("cvv").value=("cvv-placeholder");
+                    window.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ");
                     placeOrder[0].click();
                 }
             }
